@@ -48,3 +48,33 @@
 
 
 
+
+## Add to cart Test case
+### Common pre-condition
+- User is on Product inventory page.
+
+| Test Case ID | Scenario | Pre-condition | Test Steps | Expected Result | Actual Result | Status |
+|--------------|----------|---------------|------------|-----------------|---------------|--------|
+| ADDCART_TC_00 | Verify item add to cart | | 1. Click a item<br>2. Select the number of item<br>3. Click add to cart | Selected item should be added to the cart. | Selected item added to the cart | Pass |
+| ADDCART_TC_01 | Check if the added item is on the cart inventory. | Item already added to the cart | 1. Click cart icon | Added item should be listed on the cart inventory | Added item is listed on cart inventory | Pass |
+| ADDCART_TC_02 | Remove cart item from the cart | Item is available on the cart inventory | 1. Click cart icon<br>2. Click remove | Cart item should be removed upon clicking the remove button | Cart item removed upon clicking remove button | Pass |
+| ADDCART_TC_03 | Change the amount of cart item | Item is added and cart inventory is open | 1. Click on number of item<br>2. Replace it with another number | The number of item should be changed to entered number. | The number of item changed | Pass |
+| ADDCART_TC_04 | New product added to the cart | First product is already on the cart | 1. Select a product<br>2. Click on add to cart | New product should be there on the cart inventory | New product is there on the cart inventory | Pass |
+| ADDCART_TC_05 | Verify items are available after browser refresh | Items are already added and is on cart inventory page. | 1. Click refresh | Items should be available after refreshing browser | Items are available after refreshing browser | Pass |
+
+
+
+
+
+## Check out test case
+### Common Pre-condtion
+- User is logged  in
+- Products are already added to the cart.
+- User is on check out page.
+
+| Test Case ID | Scenario | Pre-condition | Test Steps | Expected Result | Actual Result | Status |
+|--------------|----------|---------------|------------|-----------------|---------------|--------|
+| CHECKOUT_TC_00 | Verify checkout with valid credential | | 1. Enter valid delivery address<br>2. Enter first and last name<br>3. Select shipping method<br>4. Enter credit card details on payment box<br>5. Click pay now | User should be redirected to payment confirmation page and display payment success message | User redirected to payment confirmation page and displayed success message | Pass |
+| CHECKOUT_TC_01 | Proceed with empty delivery address | | 1. Leave delivery address field empty<br> 2. Fill out every field with valid details<br>3. Click Pay now | Validation error message"Delivery address is required" should displayed | Validation error message displayed | Pass |
+| CHECKOUT_TC_02 | Proceed with empty last name field | | 1. Fill out valid details on required fields except for last name<br Click pay now | Validation error message"Last name is required" should be displayed | Validation error message displayed | Pass |
+| CHECKOUT_TC_03 | Proceed with empty credit card fields | | 1. Fill out address, name and delivery type field<br>2. Leave credit card field empty<br>3. Click pay now | Application should prompt user to enter credit card details | Application prompted user to enter credit card details | Pass |
