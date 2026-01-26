@@ -4,8 +4,8 @@ Project Name: Sauce Demo Ecommerce website.
 Application Url: https://sauce-demo.myshopify.com/
 Test Type: Manual Testing
 Tester: Anish Rajan Magar
-Test Start Date:
-Test End Date:
+Test Start Date: Jan 18, 2026
+Test End Date: Jan 23, 2026
 
 ## 2. Objective
 The objective of this test plan is to verify that the core functionalities of the SauceDemo e‑commerce application work as expected. This includes login, product listing, cart, checkout, and logout features.
