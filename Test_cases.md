@@ -1,5 +1,23 @@
 # Test Cases
 
+## Test Summary
+- **Application under test:** SauceDemo 
+- **Total Test Cases:** 27 
+- **Failed:** 4
+- **Test Environment:** Chrome Browser, Windows 11
+- **Tested By:** Anish Rajan Magar
+- **Test Date:** 
+
+## Test Coverage
+
+| Module | Total Test Cases | Pass | Fail | Coverage |
+|--------|------------------|------|------|----------|
+| Login | 10 | 8 | 2 | 100% |
+| Signup | 4 | 2 | 2 | 80% |
+| Product Inventory | 3 | 3 | 0 | 100% |
+| Cart | 6 | 6 | 0 | 100% |
+| Checkout | 4 | 4 | 0 | 90% |
+
 ## Login Test Case
 
 ### Global Pre-condition

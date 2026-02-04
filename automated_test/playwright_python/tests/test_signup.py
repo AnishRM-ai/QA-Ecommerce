@@ -9,7 +9,7 @@ def test_signup(page):
     signup_page.signup(
         first="Test",
         last="User",
-        email="ywho942@gmail.com",
+        email="test@gmail.com",
         password="Password123!"
     )
     

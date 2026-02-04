@@ -1,53 +1,100 @@
-# Bug Report
-### Bug Report Format ###
+# Bug Report - SauceDemo Application
+
+## Summary
+Total Bugs Found: 4
+- Critical: 0
+- High: 2
+- Medium: 3
+- Low: 0
+
+---
+
+## BUG_001
+
 | Field | Description |
 |-------|-------------|
 | Bug ID | BUG_001 |
-| Title | Login error message not displayed properly |
+| Title | Unclear error message displayed on invalid login credentials |
+| Application | SauceDemo E-commerce |
+| URL | https://www.saucedemo.com |
 | Module | Login |
-| Environment | Chrome/Windows |
+| Environment | Chrome v120 / Windows 11 |
 | Severity | Medium |
 | Priority | High |
 | Status | Open |
+| Reported Date | January 28, 2026 |
 | Reported By | Anish Rajan Magar |
 | Assigned To | Dev Team |
 
 ### Steps to Reproduce
-1. Open SauceDemo login page
-2. Enter invalid username
-3. Enter valid password
-4. Click Login
+1. Navigate to https://www.saucedemo.com
+2. Enter username: "mindpixel@gmail.com"
+3. Enter password: "Password1@"
+4. Click "Login" button
+
+### Test Data
+- Username: mindpixel@gmail.com
+- Password: Password1@
 
 ### Expected Result
-Proper error message should be displayed.
+Clear error message "Epic sadface: Username and password do not match any user in this service" should be displayed.
 
 ### Actual Result
-Error message text is unclear, shows internal system error.
+Error message is unclear/confusing to end users.
+
+### Impact
+Users may not understand why login failed, leading to poor user experience.
 
 ### Attachments
-- Screenshot
+- Screenshot: bug_001_login_error.png
+
+### Related Test Case
+LOGIN_TC_01
+
+---
+
+## BUG_002
 
 | Field | Description |
 |-------|-------------|
-| Bug ID | SIGNUP_TC_02 |
-| Title | Error message not displayed properly |
-| Module | Signup |
-| Environment | Chrome/Windows |
+| Bug ID | BUG_002 |
+| Title | No validation error displayed for invalid email format on signup |
+| Application | SauceDemo E-commerce |
+| URL | https://www.saucedemo.com/signup |
+| Module | User Registration |
+| Environment | Chrome v120 / Windows 11 |
 | Severity | Medium |
 | Priority | High |
 | Status | Open |
+| Reported Date | January 28, 2026 |
 | Reported By | Anish Rajan Magar |
 | Assigned To | Dev Team |
 
-### Steps to reproduce
-1. Open SauceDemo signup page.
-2. Enter First and Last name.
-3. Enter invalid email.
-4. Enter valid password.
-5. Click create.
+### Steps to Reproduce
+1. Navigate to SauceDemo signup page
+2. Enter First name: "John"
+3. Enter Last name: "Doe"
+4. Enter email: "invalidemail" (without @ symbol)
+5. Enter password: "Password123"
+6. Click "Create Account" button
+
+### Test Data
+- First Name: John
+- Last Name: Doe
+- Email: invalidemail
+- Password: Password123
 
 ### Expected Result
-Error message "Invalid Email" should be displayed.
+Validation error message "Please enter a valid email address" should be displayed below the email field.
 
 ### Actual Result
-Did not display error message.
+No error message displayed. Form may submit with invalid data or fail silently.
+
+### Impact
+Invalid email addresses may be registered, causing issues with password recovery and email notifications.
+
+### Attachments
+- Screenshot: bug_002_email_validation.png
+
+### Related Test Case
+SIGNUP_TC_02
