@@ -5,7 +5,7 @@ This project demonstrates comprehensive manual testing of the SauceDemo e-commer
 
 **Application Under Test:** [SauceDemo](https://www.saucedemo.com)
 
-## 🎯 Testing Objectives
+## Testing Objectives
 
 - Validate core e-commerce functionalities
 - Identify bugs and usability issues
@@ -13,7 +13,7 @@ This project demonstrates comprehensive manual testing of the SauceDemo e-commer
 - Document test cases following industry standards
 - Create professional bug reports with detailed reproduction steps
 
-## 📊 Test Summary
+## Test Summary
 
 | Metric | Count |
 |--------|-------|
@@ -23,7 +23,7 @@ This project demonstrates comprehensive manual testing of the SauceDemo e-commer
 | **Pass Rate** | 82% |
 | **Bugs Found** | 4 |
 
-## 🧪 Test Coverage
+##  Test Coverage
 
 ### Modules Tested
 
@@ -58,7 +58,7 @@ This project demonstrates comprehensive manual testing of the SauceDemo e-commer
    - Address validation
    - Payment information validation
    - Order confirmation
-## 📝 Test Case Documentation
+## Test Case Documentation
 
 All test cases are documented with the following structure:
 
@@ -72,7 +72,7 @@ All test cases are documented with the following structure:
 
 **View Test Cases:** [Test_cases.md](Test_cases.md)
 
-## 🐛 Bugs Identified
+## Bugs Identified
 
 ### Critical Bugs
 
@@ -85,7 +85,7 @@ All test cases are documented with the following structure:
 
 **Detailed Bug Reports:** [Bug_Reports.md](Bug_Reports.md)
 
-## 🔧 Testing Environment
+## Testing Environment
 
 - **Browser:** Chrome (Version 120)
 - **Operating System:** Windows 11
@@ -93,7 +93,7 @@ All test cases are documented with the following structure:
 - **Testing Period:** January 2026
 - **Testing Type:** Manual, Black-box Testing
 
-## 🎓 Testing Methodologies Applied
+## Testing Methodologies Applied
 
 - **Black Box Testing**: Testing without knowledge of internal code structure
 - **Functional Testing**: Verifying each function works as expected
@@ -102,7 +102,7 @@ All test cases are documented with the following structure:
 - **Boundary Value Analysis**: Testing limits of input fields
 - **Regression Testing**: Ensuring existing features still work
 
-## 📈 Test Metrics & Analysis
+## Test Metrics & Analysis
 
 ### Test Execution Summary
 
@@ -133,7 +133,7 @@ All test cases are documented with the following structure:
 2. Use the test case template for your own projects
 3. Adapt the bug report format for your testing workflow
 
-## 💡 Key Learnings
+## Key Learnings
 
 1. **Test Case Design**: Learned to create clear, reproducible test cases with proper pre-conditions and expected results
 2. **Bug Reporting**: Developed skills in writing detailed bug reports with severity classification and business impact
@@ -141,14 +141,14 @@ All test cases are documented with the following structure:
 4. **Documentation**: Improved technical writing and documentation skills
 5. **SDLC/STLC**: Applied Software Testing Life Cycle principles in a real-world scenario
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Documentation**: Markdown
 - **Version Control**: Git/GitHub
 - **Browser**: Chrome DevTools for inspection
 - **Test Management**: Manual tracking in Markdown tables
 
-## 📚 Best Practices Followed
+## Best Practices Followed
 
 ✅ Clear and concise test case descriptions  
 ✅ Unique test case IDs for traceability  
@@ -158,7 +158,7 @@ All test cases are documented with the following structure:
 ✅ Professional documentation formatting  
 ✅ Version control for test artifacts  
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Add automation test suite using Playwright
 - [ ] Include API testing for backend validation
@@ -167,16 +167,16 @@ All test cases are documented with the following structure:
 - [ ] Add performance testing metrics
 - [ ] Create test execution videos
 
-## 📞 Contact
+## Contact
 
 **Tester:** Anish Rajan Magar  
 **Email:** magaranish880@gmail.com 
 
-## 📄 License
+## License
 
 This project is for educational and portfolio purposes.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - SauceDemo team for providing a publicly accessible test application
 - QA community for testing best practices and guidelines
