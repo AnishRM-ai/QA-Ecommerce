@@ -54,10 +54,44 @@ LOGIN_TC_01
 ---
 
 ## BUG_002
-
 | Field | Description |
 |-------|-------------|
 | Bug ID | BUG_002 |
+| Title | Verification code for password change not sent |
+| Application | SauceDemo E-commerce |
+| URL | https://www.saucedemo.com/signup |
+| Module | User Registration |
+| Environment | Chrome / Windows 11 |
+| Severity | High |
+| Priority | High |
+| Status | Open |
+| Reported Date | January 27, 2026 |
+| Reported By | Anish Rajan Magar |
+| Assigned to | Dev Team |
+
+### Steps to Reproduce
+- Go to login page
+- Click forgot password
+- Enter valid registered email
+- Click send
+
+### Expected Result
+Verification code sent to user email.
+
+### Actual Result
+Verification code not sent.
+
+### Impact
+Creates issues in recovering account.
+
+### Relates Test Cases
+LOGIN_TC_002
+
+## BUG_003
+
+| Field | Description |
+|-------|-------------|
+| Bug ID | BUG_003 |
 | Title | No validation error displayed for invalid email format on signup |
 | Application | SauceDemo E-commerce |
 | URL | https://www.saucedemo.com/signup |
@@ -98,3 +132,5 @@ Invalid email addresses may be registered, causing issues with password recovery
 
 ### Related Test Case
 SIGNUP_TC_02
+
+
